@@ -1,0 +1,15 @@
+is.installed <- function(mypkg) is.element(mypkg, installed.packages()[,1])
+
+if (!is.installed("tidyverse")) install.packages("tidyverse")
+if (!is.installed("DescTools"))install.packages("DescTools")
+if (!is.installed("data.table")) install.packages("data.table")
+if (!is.installed("plyr")) install.packages("plyr")
+if (!is.installed("microbenchmark"))install.packages("microbenchmark")
+if (!is.installed("psych"))install.packages("psych")
+
+library(tidyverse)
+library(DescTools)
+library(data.table)
+library(plyr)
+library(microbenchmark)
+library(psych)

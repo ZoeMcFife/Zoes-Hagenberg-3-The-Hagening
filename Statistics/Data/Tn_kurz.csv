@@ -1,0 +1,10 @@
+Nummer;Fallart;PID;Abnahmezeit;Alter;Geschlecht;Troponin;Diagnose
+5;S;1000031;21.07.2017 17:23;59;W;6.7;hypertensive Entgleisung
+6;S;1000031;22.07.2017 19:24;59;W;10.43;erhoehter Blutdruck
+7;S;1000031;23.07.2017 17:21;59;W;7.23;Facialisparese links
+8;A;1000075;10.11.2016 15:06;64;M;153.6;Thoraxschmerz
+9;S;1000075;16.11.2016 08:57;64;M;49.89;Thoraxschmerz
+10;S;1000075;23.11.2016 08:43;64;M;16.19;Vorhofflimmern
+11;S;1000075;13.11.2016 08:46;64;M;74.9;TaubheitsgefÅhl,Ohrbeschwerden li.
+12;S;1000075;10.11.2016 17:55;64;M;144.1;NStemi
+13;S;1000075;11.11.2016 06:55;64;M;91.3;NStemi
