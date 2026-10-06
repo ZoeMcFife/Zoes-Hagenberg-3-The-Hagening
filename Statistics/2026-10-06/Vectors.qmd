@@ -1,0 +1,41 @@
+---
+title: "Vectors"
+author: "Zoe McFife"
+format: html
+editor: visual
+---
+
+# Vectors
+
+```{r}
+squares <- (1:10) ^ 2
+
+print(squares)
+```
+
+## Temperatures
+
+```{r}
+temps <- c(15, 18, 22, 20, 17, 25, 28, 19, 14, 21)
+
+print(temps)
+```
+
+```{r}
+temps_under_20 <- subset(temps, temps < 20)
+
+print(temps_under_20)
+```
+
+```{r}
+
+temps_f <- (temps_under_20 * 9/5) + 32
+
+print(temps_f)
+```
+
+```{r}
+mean_f <- mean(temps_f)
+
+print(mean_f)
+```
