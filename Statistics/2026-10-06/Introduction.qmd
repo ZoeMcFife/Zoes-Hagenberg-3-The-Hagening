@@ -1,0 +1,46 @@
+---
+title: "Introduction"
+author: "Zoe McFife"
+format: html
+editor: visual
+---
+
+# Introduction
+
+Hi!
+
+I'm **Zoe McFife**!
+
+*My legal lastname is Bunea, but I don't really go by that name.*
+
+![](images/clipboard-1608073531.png){fig-align="center" width="264"}
+
+------------------------------------------------------------------------
+
++-----------------------------+--------------------------+
+|                             |                          |
++=============================+==========================+
+| **Degree**                  | MTD.ba                   |
++-----------------------------+--------------------------+
+| **Semester**                | 3rd                      |
++-----------------------------+--------------------------+
+| **Programming Experience**  | \~10+ Years              |
++-----------------------------+--------------------------+
+| **Hobbies**                 | - Game Dev               |
+|                             |                          |
+|                             | - Spaceships             |
+|                             |                          |
+|                             | - anything space related |
++-----------------------------+--------------------------+
+| **Age**                     | 21                       |
++-----------------------------+--------------------------+
+| **Favorite Food**           | Waffles                  |
++-----------------------------+--------------------------+
+
+**This is my dog Subi!**
+
+Everyone loves him!
+
+![Subi](images/clipboard-335084448.png){fig-align="center" width="333"}
+
+![My Game :3](images/clipboard-3279552099.png){fig-align="center" width="527"}

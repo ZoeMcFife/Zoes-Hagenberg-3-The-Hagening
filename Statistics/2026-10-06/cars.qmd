@@ -1,0 +1,28 @@
+---
+title: "Cars"
+author: "Zoe McFife"
+format: html
+editor: visual
+---
+
+# Cars
+
+Mean speed of the cars is `r mean(cars$speed)` mph.
+
+## Scatter Plot
+
+Distance and Speed seem linearly correlated.
+
+```{r cars}
+plot(cars$speed, cars$dist, ylab = "Distance", xlab = "Speed")
+```
+
+## Table
+
+```{r table}
+knitr::kable(cars)
+```
+
+## Analysis
+
+This data set is very simple, only having speed and distance data. Such data can easily be plotted on a scatter plot. A weal linear correlation is noticeable.
