@@ -8,6 +8,7 @@ let notesDiv = document.getElementById("notes");
 let contentArea = document.getElementById("content");
 
 document.querySelector("#saveBtn").addEventListener("click", saveData);
+document.querySelector("#clearBtn").addEventListener("click", removeAll)
 
 loadData();
 
@@ -34,12 +35,28 @@ function renderData()
 {
     let output = "";
 
-    for (let entry of notesData)
+    for (let entry in notesData)
     {
-        output += `<p><em>${entry.date}</em> -- ${entry.content}</p>`;
+        output += `<div class="mt-3 mb-3"><button class="btn btn-danger deleteBtn" onclick="removeEntry(${entry})">X</button><span><em>${notesData[entry].date}</em> -- ${notesData[entry].content}</span></div>`;
     }
 
     notesDiv.innerHTML = output;
+}
+
+function removeEntry(entry)
+{
+    notesData.splice(entry, 1);
+
+    localStorage.setItem(notesKey, JSON.stringify(notesData));
+
+    renderData();
+}
+
+function removeAll()
+{
+    notesData = [];
+    localStorage.setItem(notesKey, JSON.stringify(notesData));
+    renderData();
 }
 
 function loadData()

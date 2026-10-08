@@ -1,6 +1,16 @@
+body
+{
+    background-color: #fff1f1;
+}
+
 .isometra-regular
 {
     font-family: "Isometra", serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.deleteBtn
+{
+    margin-right: 1rem;
 }
