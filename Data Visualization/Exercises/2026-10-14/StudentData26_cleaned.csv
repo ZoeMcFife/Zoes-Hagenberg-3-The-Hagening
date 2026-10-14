@@ -1,0 +1,73 @@
+age,distance,transportation,duration,creative skills,languages,hobbies,distance_cat,Creativity
+20,11.0,car,11.0,4,german; english; romanian; italian,Drawing,medium,good
+21,200.0,car,140.0,3,german; english; polish,work out,far far away,medium
+23,30.0,public transportation,40.0,4,german; english; vietnamese,crochet; gaming; sewing; reading; doom scrolling,far,good
+19,178.0,public transportation,300.0,4,deutsch; englisch; spanisch,Geschichte lernen,far far away,good
+19,0.0,public transportation,130.0,4,german; italian; english,listening to music,near,good
+21,44.0,public transportation,90.0,2,german ; english ; french ; portuguese a1,Zocken,far,some
+20,0.3,on foot,1.0,4,german;english,video games,near,good
+18,30.0,car,30.0,4,deutsch; englisch,Lesen,far,good
+19,10.5,public transportation,18.0,2,spanish; german; english,sleeping; watching series,medium,some
+20,0.55,public transportation,7.0,4,german; english; programming languages,Dancing,near,good
+19,202.0,public transportation,90.0,5,spanish; english; german,Riding horse; painting; playing piano; playing chess; playing Volleyball,far far away,very good
+20,345.0,car,210.0,2,german; english,Dancing,far far away,some
+33,221.0,car,162.0,4,german; english; japanese,Beeing Creative!,far far away,good
+21,0.0,on foot,0.0,4,english; german; romanian; klingon,Spaceships,near,good
+20,1.0,on foot,10.0,4,german;english,cooking,near,good
+21,1.0,on foot,5.0,4,latin; english; german,uni work,near,good
+23,0.0,on foot,2.0,4,"english, polish, spanish",swimming ,near,good
+22,0.2,on foot,5.0,2,"arabic, english",Playing volleyball ,near,some
+20,1.0,on foot,3.0,1,"german, english",Reading ,near,not really
+19,0.0,on foot,2.0,3,"russian, uzbek, german, turkish, english",Sleeping,near,medium
+21,0.0,on foot,1.0,5,"english, farzi, russian",Swimming ,near,very good
+20,25.0,car,18.0,3,"english, german, hungarian",Video games,far,medium
+23,3.0,on foot,11.0,3,"english, german",Archery,near,medium
+19,0.0,on foot,3.0,3,"english, romanian, russian",Driving car,near,medium
+17,0.0,on foot,2.0,5,"english, russian, latvian , german","Drawing, cosplay, crocheting, coming up with stories, walking, listening to my favourite podcast",near,very good
+20,1.0,on foot,4.0,4,"german, english","Gym, Volleyball, Gaming",near,good
+21,0.35,on foot,3.0,2,"german, english",reading,near,some
+20,0.2,public transportation,240.0,1,"german, english","horse riding, riding motorbike, gaming, sleeping",near,not really
+20,0.01,on foot,0.3,3,"albanian , english, german",Basketball ,near,medium
+19,1.0,on foot,5.0,3,"german, english",Reading,near,medium
+19,0.1,on foot,0.5,4,"russian, finnish, english, german",Ice skating ,near,good
+21,42.0,public transportation,90.0,5,"german, english, turkish, spanish",Playing Video Games,far,very good
+22,0.0,on foot,1.0,2,"german, english",Cooking ,near,some
+20,1.0,on foot,10.0,1,"german, english","Programming, Gaming, Running",near,not really
+23,20.0,public transportation,30.0,5,"german, english, spanish",Skiing ⛷️ ,medium,very good
+19,0.0,on foot,2.0,5,"german, english, spanish, italian",Reading,near,very good
+18,23.0,car,20.0,2,"english, latin, german",Gaming,far,some
+20,0.3,car,4.0,5,"german, english","gaming, anime",near,very good
+19,229.0,public transportation,300.0,3,"german, english, french, tagalog, russian",Chess,far far away,medium
+33,17.0,public transportation,120.0,3,"urdu, punjabi, hindi, arabic, english, kashmiri",Listen Music ,medium,medium
+28,17.0,public transportation,30.0,3,"english, hausa, pidgin english,","football, watching football, movies and playing football",medium,medium
+21,25.0,public transportation,90.0,3,"kurdish, persian, english",Reading,far,medium
+18,20.0,public transportation,40.0,4,"german, english, sinhala",Photography,medium,good
+19,0.0,on foot,2.0,4,"hungarian, english, german",cycling,near,good
+24,2.0,public transportation,6.0,4,"english, hindi, german",Video Games,near,good
+19,0.0,on foot,2.0,3,"english, german",Volleyball,near,medium
+19,0.0,on foot,0.0,3,"english, lithuanian, russian, german",Reading,near,medium
+23,31.1,public transportation,70.0,3,"english, german, yoruba, french",Baking,far,medium
+20,0.0,on foot,1.0,2,"german, english,  spanish",Skiing,near,some
+18,0.2,on foot,0.0,2,"german, english, spanish, catalan",Traveling,near,some
+20,3.0,car,3.0,3,"german, english",Darts,near,medium
+20,0.08,on foot,5.0,3,"portuguese,english,spanish,  french",doing sports!,near,medium
+20,4.0,car,5.0,3,"german, english",reading,near,medium
+21,4.0,car,5.0,2,"german, english",gym,near,some
+19,0.0,on foot,1.0,5,"english, hindi, urdu, bengali",Vibecoding stuff,near,very good
+18,1.0,on foot,5.0,3,"english, georgian",reading,near,medium
+21,0.2,on foot,3.0,4,"german,english",lego(not actually lego),near,good
+22,45.0,car,50.0,4,"german, english, norwegian",Sewing,far,good
+20,0.2,on foot,4.0,3,english,Table Tennis,near,medium
+21,0.1,on foot,3.0,4,"english, turkish",Photography,near,good
+22,45.0,car,50.0,4,"english,german,arabic","Swimming,Biking,Bouldering,Dancing",far,good
+20,7.0,car,10.0,3,"german, english",Art,near,medium
+19,0.05,on foot,1.0,5,"serbian, english, croatian, bosnian, montenegro, macedonian",Gaming,near,very good
+21,0.1,on foot,5.0,3,"english, bulgarian, german",Movies,near,medium
+18,0.0,on foot,0.0,5,"english, hindi, germanlearning","Football, Reading",near,very good
+24,0.0,on foot,0.0,4,"russian,english,turkish,azerbaijani,german",Reading Manga,near,good
+20,0.4,on foot,10.0,3,"german, english",volleyball,near,medium
+20,30.0,public transportation,50.0,4,"englisch,  spanish",Videogames,far,good
+20,0.1,on foot,5.0,4,"albanian, english",playing the violin,near,good
+19,0.01,on foot,3.0,4,"serbian, english,  german",painting,near,good
+21,3.0,car,5.0,3,"german,english",working out,near,medium
+19,50.0,on foot,1.0,4,"serbian, croatian, bosnian, montenegrin, english    german",football,far,good
