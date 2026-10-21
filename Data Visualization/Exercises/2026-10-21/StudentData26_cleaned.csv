@@ -1,0 +1,67 @@
+age,distance,transportation,duration,creative skills,languages,hobbies,distance_cat,Creativity,speed
+20,11.0,Car,11.0,4,German; English; Romanian; Italian,Drawing,medium,good,60.00000000000001
+21,200.0,Car,140.0,3,German; English; Polish,work out,far far away,medium,85.71428571428571
+23,30.0,Mix,40.0,4,German; English; vietnamese,crochet; gaming; sewing; reading; doom scrolling,far,good,45.0
+19,178.0,Train,300.0,4,Deutsch; Englisch; Spanisch,Geschichte lernen,far far away,good,35.6
+19,0.0,Mix,130.0,4,German; Italian; English,listening to music,near,good,0.0
+20,0.3,Walk,1.0,4,German;English,video games,near,good,18.0
+18,30.0,Car,30.0,4,Deutsch; Englisch,Lesen,far,good,60.0
+19,10500.0,Mix,1800.0,2,Spanish; German; English,sleeping; watching series,far far away,some,350.0
+20,0.55,Mix,7.0,4,German; English; Programming Languages,Dancing,near,good,4.714285714285714
+20,345.0,Car,210.0,2,German; English,Dancing,far far away,some,98.57142857142857
+33,221.0,Car,162.0,4,German; English; Japanese,Beeing Creative!,far far away,good,81.85185185185185
+21,0.0,Walk,0.0,4,English; German; Romanian; Klingon,Spaceships,near,good,
+20,1.0,Walk,10.0,4,German;English,cooking,near,good,6.0
+21,1.0,Walk,5.0,4,latin; English; German,uni work,near,good,12.0
+23,0.0,Walk,2.0,4,"English, Polish, Spanish",swimming ,near,good,0.0
+22,0.2,Walk,5.0,2,"Arabic, English",Playing volleyball ,near,some,2.4000000000000004
+20,1.0,Walk,3.0,1,"German, English",Reading ,near,not really,20.0
+19,0.0,Walk,2.0,3,"Russian, Uzbek, German, Turkish, English",Sleeping,near,medium,0.0
+21,0.0,Walk,1.0,5,"English, Farzi, Russian",Swimming ,near,very good,0.0
+20,25.0,Car,18.0,3,"English, German, Hungarian",Video games,far,medium,83.33333333333334
+19,0.0,Walk,3.0,3,"English, Romanian, Russian",Driving car,near,medium,0.0
+17,0.0,Walk,2.0,5,"English, Russian, Latvian b2, German a2-b1","Drawing, cosplay, crocheting, coming up with stories, walking, listening to my favourite podcast",near,very good,0.0
+20,1.0,Walk,4.0,4,"German, English","Gym, Volleyball, Gaming",near,good,15.0
+21,0.35,Walk,3.0,2,"German, English",reading,near,some,6.999999999999999
+20,0.2,Bus,240.0,1,"German, English","horse riding, riding motorbike, gaming, sleeping",near,not really,0.05
+20,0.01,Walk,0.3,3,"Albanian , English, German",Basketball ,near,medium,2.0
+19,1.0,Walk,5.0,3,"German, English",Reading,near,medium,12.0
+19,0.1,Walk,0.5,4,"Russian, Finnish, English, German",Ice skating ,near,good,12.0
+21,42.0,Mix,90.0,5,"German, English, turkish, Spanish",Playing Video Games,far,very good,28.0
+22,0.0,Walk,1.0,2,"German, English",Cooking ,near,some,0.0
+20,1.0,Walk,10.0,1,"German, English","Programming, Gaming, Running",near,not really,6.0
+23,20.0,Bus,30.0,5,"German, English, Spanish",Skiing ⛷️ ,medium,very good,40.0
+19,0.0,Walk,2.0,5,"German, English, Spanish, Italian",Reading,near,very good,0.0
+18,23.0,Car,20.0,2,"English, Latin, German",Gaming,far,some,69.0
+20,0.3,Car,4.0,5,"German, English","gaming, anime",near,very good,4.5
+19,229.0,Train,300.0,3,"German, English, French, Tagalog, Russian",Chess,far far away,medium,45.8
+33,17.0,Bus,120.0,3,"Urdu, Punjabi, Hindi, Arabic, English, Kashmiri",Listen Music ,medium,medium,8.5
+28,17.0,Mix,30.0,3,"English, Hausa, pidgin English,","football, watching football, movies and playing football",medium,medium,34.0
+21,25.0,Mix,90.0,3,"Kurdish, Persian, English",Reading,far,medium,16.666666666666668
+18,20.0,Mix,40.0,4,"German, English, Sinhala",Photography,medium,good,30.0
+19,0.0,Walk,2.0,4,"Hungarian, English, German",cycling,near,good,0.0
+24,2.0,Bus,6.0,4,"English, Hindi, German",Video Games,near,good,20.0
+19,0.0,Walk,2.0,3,"English, German",Volleyball,near,medium,0.0
+19,0.0,On Walk,0.0,3,"English, Lithuanian, Russian, German",Reading,near,medium,
+23,31.1,Mix,70.0,3,"English, German, Yoruba, French",Baking,far,medium,26.65714285714286
+20,0.0,Walk,1.0,2,"German, English, bit of Spanish",Skiing,near,some,0.0
+18,0.2,Walk,0.0,2,"German, English, Spanish, Catalan",Traveling,near,some,inf
+20,3.0,Car,3.0,3,"German, English",Darts,near,medium,60.0
+20,4.0,Car,5.0,3,"German, English",reading,near,medium,48.0
+21,4.0,Car,5.0,2,"German, English",gym,near,some,48.0
+19,0.0,Walk,1.0,5,"English, Hindi, Urdu, Bengali",Vibecoding stuff,near,very good,0.0
+18,1.0,Walk,5.0,3,"English, georgian",reading,near,medium,12.0
+20,0.2,Walk,4.0,3,English,Table Tennis,near,medium,3.0
+21,0.1,Walk,3.0,4,"English, Turkish",Photography,near,good,2.0
+22,45.0,Car,50.0,4,"English,German,Arabic","Swimming,Biking,Bouldering,Dancing",far,good,54.0
+20,7.0,Car,10.0,3,"German, English",Art,near,medium,42.0
+19,0.05,On Walk,1.0,5,"Serbian, English, Croatian, Bosnian, Montenegro, Macedonian",Gaming,near,very good,3.0
+21,0.1,Walk,5.0,3,"English, Bulgarian, German",Movies,near,medium,1.2000000000000002
+18,0.0,Walk,0.0,5,"Englishfluent, Hindimother tongue, Germanlearning B1 level","Football, Reading",near,very good,
+24,0.0,Walk,0.0,4,"Russian,English,Turkish,Azerbaijani,German",Reading Manga,near,good,
+20,0.4,Walk,10.0,3,"German, English",volleyball,near,medium,2.4000000000000004
+20,30.0,Bus,50.0,4,"Englisch,  Spanish",Videogames,far,good,36.0
+20,0.1,Walk,5.0,4,"Albanian, English",playing the violin,near,good,1.2000000000000002
+19,0.01,Walk,3.0,4,"Serbian, English, a little German",painting,near,good,0.19999999999999998
+21,3.0,Car,5.0,3,"German,English",working out,near,medium,36.0
+19,0.05,Walk,1.0,4,"Serbian, Croatian, Bosnian, Montenegrin, English and a little bit of German",football,near,good,3.0
