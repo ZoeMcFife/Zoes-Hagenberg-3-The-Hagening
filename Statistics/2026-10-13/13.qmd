@@ -80,7 +80,7 @@ any(iris$Sepal.Width < 2.4)
 
 ```
 
-``` {r}
+```{r}
 
 subset(iris, Species=="setosa")
 
@@ -96,7 +96,7 @@ LSpecies$setosa
 
 ```
 
-``` {r}
+```{r}
 
 apply(X = cars, MARGIN = 2, FUN = max)
 
@@ -106,7 +106,7 @@ apply(cars, 2, quantile, 0.25)
 
 ```
 
-``` {r}
+```{r}
 
 span <- function(x)
   { 

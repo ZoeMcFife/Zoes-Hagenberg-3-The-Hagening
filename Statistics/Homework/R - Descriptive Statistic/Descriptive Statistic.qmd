@@ -1,0 +1,90 @@
+---
+title: "R - Descriptive Statistic"
+author: "Zoe McFife"
+format: html
+editor: visual
+---
+
+# Ex-1
+
+## Statistical Operations
+
+```{r}
+size <- c(158,181,178,166,175,181,162,185,190,167,181,177)
+
+unique(size)[which.max(tabulate(match(size, unique(size))))] # package modeest not working on arch linux
+mean(size)
+median(size)
+```
+
+## Percentiles
+
+```{r}
+quantile(size)
+quantile(size, probs = c(0.05, 0.2, 0.80, 0.95))
+```
+
+## Days
+
+```{r}
+library(tbrf)
+
+days <- c(1000,1200,1300,1500,1600)
+
+p <- ((gm_mean(days) / days[1]) - 1) * 100
+
+rel_procentual_changes <- days[-1] / days[-length(days)]
+
+average_change <- tbrf::gm_mean(rel_procentual_changes)
+
+average_change
+```
+
+## Solar
+
+```{r}
+library(ggplot2)
+library(zoo)
+
+solar <- read.csv2("../../Data/Solar.csv")
+head(solar)
+solar$Datum <- as.Date(solar$Datum, "%d.%m.%Y")
+solar$h <- c(NA, diff(solar$h))
+
+head(solar)
+
+ggplot(solar, aes(x=Datum, y=h, colour=h)) +
+  geom_line(linewidth = 0.3) +
+  ggtitle("Solar") +
+  labs(y="Hours", x = "Date") +
+  geom_line(aes(y = rollmean(h, 3, na.pad = TRUE, align = "right")), linewidth = 0.1, color="green") +
+  geom_line(aes(y = rollmean(h, 10, na.pad = TRUE, align = "right")), linewidth = 0.1, color="red") +
+  theme_minimal()
+
+ggsave("solar_data.png", width = 10, height = 4)
+
+```
+
+# Ex - 2
+
+## More Data
+
+```{r}
+size <- c(158,181,178,166,175,181,162,185,190,167,181,177)
+
+diff(range(size))
+
+IQR(size)
+
+sd(size)
+
+var(size)
+```
+
+## Box plot
+
+```{r}
+size <- c(158,181,178,166,175,181,162,185,190,167,181,177)
+
+boxplot(size, horizontal = TRUE)
+```
