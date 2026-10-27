@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.83/win64" 1793097228 0
+<REAPER_PROJECT 0.1 "7.83/win64" 1793098062 0
   <NOTES 0 2
   >
   RIPPLE 0 0
@@ -19,9 +19,9 @@
   VIDEO_CONFIG 0 0 65792
   PANMODE 3
   PANLAWFLAGS 3
-  CURSOR 2.18181818181818
-  ZOOM 9.13579078940048 0 0
-  VZOOMEX 6.81917667 0
+  CURSOR 111.27272727272727
+  ZOOM 6.4905471518875 0 0
+  VZOOMEX 3.33844137 0
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -68,8 +68,8 @@
   GLOBAL_AUTO -1
   TEMPO 110 4 4 0
   PLAYRATE 1 0 0.25 4
-  SELECTION 126.54545454545455 0
-  SELECTION2 126.54545454545455 0
+  SELECTION 207.27272727272728 0
+  SELECTION2 207.27272727272728 0
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -104,9 +104,36 @@
   RULERLANE 2 8 "" 0 -1 0
   <PROJBAY
   >
+  <TRACK {135373A5-8D48-415D-9AD5-6C63D8797E6C}
+    NAME "Chinese Instrumeents"
+    PEAKCOL 16822720
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 1 1
+    BUSCOMP 1 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 1
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {135373A5-8D48-415D-9AD5-6C63D8797E6C}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+  >
   <TRACK {E016D72F-C051-42DF-A6C4-82EF89242AF8}
-    NAME "Chinese Traditional Dizi 08_TR_01"
-    PEAKCOL 16576
+    NAME Flute
+    PEAKCOL 23872110
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
@@ -119,10 +146,10 @@
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
     LANEREC -1 -1 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -156,6 +183,58 @@
       >
     >
     <ITEM
+      POSITION 48.13434663455878
+      SNAPOFFS 0
+      LENGTH 8.59292609271395
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EE6A268F-F8D9-4CD8-BBC8-E292E3913BA6}
+      IID 18
+      NAME "Delightful Jingle_TR_03.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 48.13439039309551
+      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {26392D49-84D4-4840-8375-708D7D12133D}
+      <SOURCE WAVE
+        FILE "Media\Delightful Jingle_TR_03.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Delightful Jingle_TR_03.wav"
+      >
+    >
+  >
+  <TRACK {BCF6CA04-3CD8-48BD-A752-60AD547967BB}
+    NAME Dizi
+    PEAKCOL 28379771
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 1 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {BCF6CA04-3CD8-48BD-A752-60AD547967BB}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
       POSITION 80.7166465851991
       SNAPOFFS 0
       LENGTH 40.11524356752817
@@ -181,9 +260,9 @@
       >
     >
   >
-  <TRACK {289835D3-AFBD-4CDD-8DD6-1AB6203F00AF}
-    NAME "Chinese Traditional Pipa 01_TR_02"
-    PEAKCOL 16576
+  <TRACK {9356D11D-E84C-49E2-80ED-598F0D8AB41A}
+    NAME Guitar
+    PEAKCOL 24182691
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
@@ -195,15 +274,14 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
-    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
-    TRACKID {289835D3-AFBD-4CDD-8DD6-1AB6203F00AF}
+    TRACKID {9356D11D-E84C-49E2-80ED-598F0D8AB41A}
     PERF 0
     MIDIOUT -1 -1
     MAINSEND 1 0
@@ -232,6 +310,549 @@
         ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Chinese Traditional Pipa 01_TR_02.wav"
       >
     >
+    <ITEM
+      POSITION 168.73035273440871
+      SNAPOFFS 0
+      LENGTH 18.32014388619734
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {91B3A30D-B5F6-4F60-9B75-7E621E8F1672}
+      IID 20
+      NAME "Servomechanism Bass_TR_05.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 168.73050612577794
+      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F3BAC4D6-DF53-4880-9482-FCFB466F4417}
+      <SOURCE WAVE
+        FILE "Media\Servomechanism Bass_TR_05.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Servomechanism Bass_TR_05.wav"
+      >
+    >
+  >
+  <TRACK {46E08DA7-2203-4B87-8ED0-58B918FEA022}
+    NAME "Cooler Guitar"
+    PEAKCOL 31999469
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 1 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {46E08DA7-2203-4B87-8ED0-58B918FEA022}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 6.54545454545455
+      SNAPOFFS 0
+      LENGTH 15.27272727272727
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {33FE56A8-8AEF-4531-8CEE-6B0E12615154}
+      IID 18
+      NAME "Delightful Jingle_TR_03.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 6.54546049587318
+      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {67E59EF8-1CE2-4493-A3F4-49D79BFBF928}
+      <SOURCE WAVE
+        FILE "Media\Delightful Jingle_TR_03.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Delightful Jingle_TR_03.wav"
+      >
+    >
+  >
+  <TRACK {E21832BB-0CA7-4707-B2D2-B4728FB118D3}
+    NAME "Another Guitar"
+    PEAKCOL 26633776
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 1 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {E21832BB-0CA7-4707-B2D2-B4728FB118D3}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 6.3581293067821
+      SNAPOFFS 0
+      LENGTH 9.42834168659588
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {84EF2DE0-D2CD-4EE4-BD0F-16AF73C5B3F4}
+      IID 21
+      NAME "Spring Romance Duo 04_TR_06.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 6.3581350869049
+      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D588B432-41F4-4D24-A6DC-7AB95B5B75F2}
+      <SOURCE WAVE
+        FILE "Media\Spring Romance Duo 04_TR_06.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Spring Romance Duo 04_TR_06.wav"
+      >
+    >
+  >
+  <TRACK {E0CE918A-8C35-43C9-9ED2-E5FF3E129FA5}
+    NAME Birds
+    PEAKCOL 24273488
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 1 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {E0CE918A-8C35-43C9-9ED2-E5FF3E129FA5}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 121.52350789418016
+      SNAPOFFS 0
+      LENGTH 47.09500548278953
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {151DA9D6-5794-4F23-9BA3-7D0D5B9242E1}
+      IID 18
+      NAME "Delightful Jingle_TR_03.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 121.52361837019689
+      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {84AC2E76-2155-4C17-BE05-FA05C2B3C369}
+      <SOURCE WAVE
+        FILE "Media\Delightful Jingle_TR_03.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Delightful Jingle_TR_03.wav"
+      >
+    >
+  >
+  <TRACK {0C377FC7-6E92-46C1-93CF-A9D26DF8D134}
+    NAME Chill
+    PEAKCOL 30728565
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 1 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {0C377FC7-6E92-46C1-93CF-A9D26DF8D134}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 120.22819918600575
+      SNAPOFFS 0
+      LENGTH 50.43831232914577
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {03BB22BE-5DC0-4C4E-886B-63716E225512}
+      IID 19
+      NAME "Rusty Subwoofer Bass_TR_04.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 120.228308484468
+      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D0DAEEDD-66CD-464A-BA66-0EB6B5B0D704}
+      <SOURCE WAVE
+        FILE "Media\Rusty Subwoofer Bass_TR_04.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Rusty Subwoofer Bass_TR_04.wav"
+      >
+    >
+  >
+  <TRACK {8CF40BCE-A0AD-4A2D-8C93-408039FB1F3E}
+    NAME "Spring Romance"
+    PEAKCOL 30305763
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 1 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {8CF40BCE-A0AD-4A2D-8C93-408039FB1F3E}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 54.43610687371717
+      SNAPOFFS 0
+      LENGTH 11.1558749459134
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C9BB1141-D347-44FA-8372-0C3609B64EA9}
+      IID 21
+      NAME "Spring Romance Duo 04_TR_06.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 54.43615636113205
+      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {811C9BCE-BA26-41F9-B2D2-6AD4D1D1412F}
+      <SOURCE WAVE
+        FILE "Media\Spring Romance Duo 04_TR_06.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Spring Romance Duo 04_TR_06.wav"
+      >
+    >
+    <ITEM
+      POSITION 123.60385218306627
+      SNAPOFFS 0
+      LENGTH 45.48705690784283
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CF8BB619-EBE3-4A48-BDF6-14D541D0E719}
+      IID 21
+      NAME "Spring Romance Duo 04_TR_06.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 123.60396455030678
+      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F5CDE7BF-6FCD-45A6-A1BC-3B2BBE5E0CDE}
+      <SOURCE WAVE
+        FILE "Media\Spring Romance Duo 04_TR_06.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Spring Romance Duo 04_TR_06.wav"
+      >
+    >
+    <ITEM
+      POSITION 176.74340277495381
+      SNAPOFFS 0
+      LENGTH 8.94176175353104
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FB550BF6-113B-43AC-A23B-033295ACC57B}
+      IID 21
+      NAME "Spring Romance Duo 04_TR_06.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 176.74356345092059
+      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D36C8E79-DEB4-413F-8633-7401688DAC6A}
+      <SOURCE WAVE
+        FILE "Media\Spring Romance Duo 04_TR_06.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Spring Romance Duo 04_TR_06.wav"
+      >
+    >
+  >
+  <TRACK {7F6E05C2-1E7D-4697-8901-D0CD8D538C3B}
+    NAME "Drop and Chill"
+    PEAKCOL 29192847
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 1 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {7F6E05C2-1E7D-4697-8901-D0CD8D538C3B}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 65.40109411542306
+      SNAPOFFS 0
+      LENGTH 5.50799679366784
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {ECA7CF17-E9BE-45F5-B85C-90B486A8E3FB}
+      IID 22
+      NAME "Talking Sanxian_TR_07.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 65.40115357101722
+      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8307E8A9-F3EB-4C71-B39F-D4986E3092D8}
+      <SOURCE WAVE
+        FILE "Media\Talking Sanxian_TR_07.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Talking Sanxian_TR_07.wav"
+      >
+    >
+    <ITEM
+      POSITION 141.53387787166463
+      SNAPOFFS 0
+      LENGTH 27.76730155136568
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A4C377EC-42AD-46D8-9B9C-61FD822EC6F4}
+      IID 22
+      NAME "Talking Sanxian_TR_07.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 141.53400653894329
+      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CF88DA6C-E643-4AB5-A95E-372AE016A5D0}
+      <SOURCE WAVE
+        FILE "Media\Talking Sanxian_TR_07.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Talking Sanxian_TR_07.wav"
+      >
+    >
+  >
+  <TRACK {E8E6E77C-F4A9-4B3E-AB8D-4B77A00B46DB}
+    NAME "Ending Notes"
+    PEAKCOL 31883225
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 2 -1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 1 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {E8E6E77C-F4A9-4B3E-AB8D-4B77A00B46DB}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 130.49112476299629
+      SNAPOFFS 0
+      LENGTH 12.41796614609461
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D1850B15-C5D3-49A3-AEDC-1445AF2C54B7}
+      IID 24
+      NAME "Transforming Wobble Bass_TR_10.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 130.49124339139937
+      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3B73662C-AA34-49E5-AEA4-895155BB27D5}
+      <SOURCE WAVE
+        FILE "Media\Transforming Wobble Bass_TR_10.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Transforming Wobble Bass_TR_10.wav"
+      >
+    >
+    <ITEM
+      POSITION 158.95343207125413
+      SNAPOFFS 0
+      LENGTH 13.7610775820792
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {22557B83-E84E-457E-B1FC-F9ED5FD3DA54}
+      IID 24
+      NAME "Transforming Wobble Bass_TR_10.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 158.95357657450555
+      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0900162F-BBF0-4727-B5B9-F254BBB51851}
+      <SOURCE WAVE
+        FILE "Media\Transforming Wobble Bass_TR_10.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Transforming Wobble Bass_TR_10.wav"
+      >
+    >
+  >
+  <TRACK {1E02E377-3FF2-4195-AB0F-FC3A99FF6343}
+    NAME Dubstep
+    PEAKCOL 29365760
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 1 1
+    BUSCOMP 1 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {1E02E377-3FF2-4195-AB0F-FC3A99FF6343}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+  >
+  <TRACK {289835D3-AFBD-4CDD-8DD6-1AB6203F00AF}
+    NAME "Main Wubs"
+    PEAKCOL 26213045
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 1 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {289835D3-AFBD-4CDD-8DD6-1AB6203F00AF}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
     <ITEM
       POSITION 22.22913327132592
       SNAPOFFS 0
@@ -283,9 +904,9 @@
       >
     >
   >
-  <TRACK {E0CE918A-8C35-43C9-9ED2-E5FF3E129FA5}
-    NAME "Delightful Jingle_TR_03"
-    PEAKCOL 16576
+  <TRACK {C55F274C-61E0-44EE-95BD-B79A01EF2E54}
+    NAME Screamer
+    PEAKCOL 28202552
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
@@ -297,43 +918,17 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
-    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
-    TRACKID {E0CE918A-8C35-43C9-9ED2-E5FF3E129FA5}
+    TRACKID {C55F274C-61E0-44EE-95BD-B79A01EF2E54}
     PERF 0
     MIDIOUT -1 -1
     MAINSEND 1 0
-    <ITEM
-      POSITION 6.54545454545455
-      SNAPOFFS 0
-      LENGTH 15.27272727272727
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {33FE56A8-8AEF-4531-8CEE-6B0E12615154}
-      IID 18
-      NAME "Delightful Jingle_TR_03.wav"
-      VOLPAN 1 0 1 -1
-      SOFFS 6.54546049587318
-      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {67E59EF8-1CE2-4493-A3F4-49D79BFBF928}
-      <SOURCE WAVE
-        FILE "Media\Delightful Jingle_TR_03.wav"
-      >
-      <EXT
-        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Delightful Jingle_TR_03.wav"
-      >
-    >
     <ITEM
       POSITION 41.80191153888757
       SNAPOFFS 0
@@ -359,60 +954,10 @@
         ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Delightful Jingle_TR_03.wav"
       >
     >
-    <ITEM
-      POSITION 48.13434663455878
-      SNAPOFFS 0
-      LENGTH 8.59292609271395
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {EE6A268F-F8D9-4CD8-BBC8-E292E3913BA6}
-      IID 18
-      NAME "Delightful Jingle_TR_03.wav"
-      VOLPAN 1 0 1 -1
-      SOFFS 48.13439039309551
-      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {26392D49-84D4-4840-8375-708D7D12133D}
-      <SOURCE WAVE
-        FILE "Media\Delightful Jingle_TR_03.wav"
-      >
-      <EXT
-        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Delightful Jingle_TR_03.wav"
-      >
-    >
-    <ITEM
-      POSITION 121.52350789418016
-      SNAPOFFS 0
-      LENGTH 47.09500548278953
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {151DA9D6-5794-4F23-9BA3-7D0D5B9242E1}
-      IID 18
-      NAME "Delightful Jingle_TR_03.wav"
-      VOLPAN 1 0 1 -1
-      SOFFS 121.52361837019689
-      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {84AC2E76-2155-4C17-BE05-FA05C2B3C369}
-      <SOURCE WAVE
-        FILE "Media\Delightful Jingle_TR_03.wav"
-      >
-      <EXT
-        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Delightful Jingle_TR_03.wav"
-      >
-    >
   >
   <TRACK {9DA5AE65-6E37-4498-A0F5-3B89D0A9CBB1}
-    NAME "Rusty Subwoofer Bass_TR_04"
-    PEAKCOL 16576
+    NAME "Second Dub"
+    PEAKCOL 28355033
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
@@ -428,7 +973,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -511,35 +1056,10 @@
         ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Rusty Subwoofer Bass_TR_04.wav"
       >
     >
-    <ITEM
-      POSITION 120.22819918600575
-      SNAPOFFS 0
-      LENGTH 50.43831232914577
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {03BB22BE-5DC0-4C4E-886B-63716E225512}
-      IID 19
-      NAME "Rusty Subwoofer Bass_TR_04.wav"
-      VOLPAN 1 0 1 -1
-      SOFFS 120.228308484468
-      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {D0DAEEDD-66CD-464A-BA66-0EB6B5B0D704}
-      <SOURCE WAVE
-        FILE "Media\Rusty Subwoofer Bass_TR_04.wav"
-      >
-      <EXT
-        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Rusty Subwoofer Bass_TR_04.wav"
-      >
-    >
   >
   <TRACK {A0487A8D-5D5E-462D-9E56-3A39D0F36019}
-    NAME "Servomechanism Bass_TR_05"
-    PEAKCOL 16576
+    NAME Servo
+    PEAKCOL 33526871
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
@@ -555,7 +1075,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -613,239 +1133,10 @@
         ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Servomechanism Bass_TR_05.wav"
       >
     >
-    <ITEM
-      POSITION 168.73035273440871
-      SNAPOFFS 0
-      LENGTH 18.32014388619734
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {91B3A30D-B5F6-4F60-9B75-7E621E8F1672}
-      IID 20
-      NAME "Servomechanism Bass_TR_05.wav"
-      VOLPAN 1 0 1 -1
-      SOFFS 168.73050612577794
-      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {F3BAC4D6-DF53-4880-9482-FCFB466F4417}
-      <SOURCE WAVE
-        FILE "Media\Servomechanism Bass_TR_05.wav"
-      >
-      <EXT
-        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Servomechanism Bass_TR_05.wav"
-      >
-    >
-  >
-  <TRACK {8CF40BCE-A0AD-4A2D-8C93-408039FB1F3E}
-    NAME "Spring Romance Duo 04_TR_06"
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    PANLAWFLAGS 3
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 0 0
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
-    FIXEDLANES 9 0 0 0 0
-    LANEREC -1 -1 -1 0
-    SEL 0
-    REC 0 0 1 0 0 0 0 0
-    VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {8CF40BCE-A0AD-4A2D-8C93-408039FB1F3E}
-    PERF 0
-    MIDIOUT -1 -1
-    MAINSEND 1 0
-    <ITEM
-      POSITION 6.3581293067821
-      SNAPOFFS 0
-      LENGTH 9.42834168659588
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {84EF2DE0-D2CD-4EE4-BD0F-16AF73C5B3F4}
-      IID 21
-      NAME "Spring Romance Duo 04_TR_06.wav"
-      VOLPAN 1 0 1 -1
-      SOFFS 6.3581350869049
-      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {D588B432-41F4-4D24-A6DC-7AB95B5B75F2}
-      <SOURCE WAVE
-        FILE "Media\Spring Romance Duo 04_TR_06.wav"
-      >
-      <EXT
-        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Spring Romance Duo 04_TR_06.wav"
-      >
-    >
-    <ITEM
-      POSITION 54.43610687371717
-      SNAPOFFS 0
-      LENGTH 11.1558749459134
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {C9BB1141-D347-44FA-8372-0C3609B64EA9}
-      IID 21
-      NAME "Spring Romance Duo 04_TR_06.wav"
-      VOLPAN 1 0 1 -1
-      SOFFS 54.43615636113205
-      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {811C9BCE-BA26-41F9-B2D2-6AD4D1D1412F}
-      <SOURCE WAVE
-        FILE "Media\Spring Romance Duo 04_TR_06.wav"
-      >
-      <EXT
-        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Spring Romance Duo 04_TR_06.wav"
-      >
-    >
-    <ITEM
-      POSITION 123.60385218306627
-      SNAPOFFS 0
-      LENGTH 45.48705690784283
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {CF8BB619-EBE3-4A48-BDF6-14D541D0E719}
-      IID 21
-      NAME "Spring Romance Duo 04_TR_06.wav"
-      VOLPAN 1 0 1 -1
-      SOFFS 123.60396455030678
-      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {F5CDE7BF-6FCD-45A6-A1BC-3B2BBE5E0CDE}
-      <SOURCE WAVE
-        FILE "Media\Spring Romance Duo 04_TR_06.wav"
-      >
-      <EXT
-        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Spring Romance Duo 04_TR_06.wav"
-      >
-    >
-    <ITEM
-      POSITION 176.74340277495381
-      SNAPOFFS 0
-      LENGTH 8.94176175353104
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {FB550BF6-113B-43AC-A23B-033295ACC57B}
-      IID 21
-      NAME "Spring Romance Duo 04_TR_06.wav"
-      VOLPAN 1 0 1 -1
-      SOFFS 176.74356345092059
-      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {D36C8E79-DEB4-413F-8633-7401688DAC6A}
-      <SOURCE WAVE
-        FILE "Media\Spring Romance Duo 04_TR_06.wav"
-      >
-      <EXT
-        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Spring Romance Duo 04_TR_06.wav"
-      >
-    >
-  >
-  <TRACK {7F6E05C2-1E7D-4697-8901-D0CD8D538C3B}
-    NAME "Talking Sanxian_TR_07"
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    PANLAWFLAGS 3
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 0 0
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
-    FIXEDLANES 9 0 0 0 0
-    LANEREC -1 -1 -1 0
-    SEL 0
-    REC 0 0 1 0 0 0 0 0
-    VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {7F6E05C2-1E7D-4697-8901-D0CD8D538C3B}
-    PERF 0
-    MIDIOUT -1 -1
-    MAINSEND 1 0
-    <ITEM
-      POSITION 65.40109411542306
-      SNAPOFFS 0
-      LENGTH 5.50799679366784
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {ECA7CF17-E9BE-45F5-B85C-90B486A8E3FB}
-      IID 22
-      NAME "Talking Sanxian_TR_07.wav"
-      VOLPAN 1 0 1 -1
-      SOFFS 65.40115357101722
-      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {8307E8A9-F3EB-4C71-B39F-D4986E3092D8}
-      <SOURCE WAVE
-        FILE "Media\Talking Sanxian_TR_07.wav"
-      >
-      <EXT
-        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Talking Sanxian_TR_07.wav"
-      >
-    >
-    <ITEM
-      POSITION 141.53387787166463
-      SNAPOFFS 0
-      LENGTH 27.76730155136568
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {A4C377EC-42AD-46D8-9B9C-61FD822EC6F4}
-      IID 22
-      NAME "Talking Sanxian_TR_07.wav"
-      VOLPAN 1 0 1 -1
-      SOFFS 141.53400653894329
-      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {CF88DA6C-E643-4AB5-A95E-372AE016A5D0}
-      <SOURCE WAVE
-        FILE "Media\Talking Sanxian_TR_07.wav"
-      >
-      <EXT
-        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Talking Sanxian_TR_07.wav"
-      >
-    >
   >
   <TRACK {FF92DF17-3279-4D8C-9E35-AFF5AB9E4636}
-    NAME "Thick Grinding Bass_TR_08"
-    PEAKCOL 16576
+    NAME Grinding
+    PEAKCOL 33533567
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
@@ -861,11 +1152,63 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
     TRACKID {FF92DF17-3279-4D8C-9E35-AFF5AB9E4636}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 71.77789520634421
+      SNAPOFFS 0
+      LENGTH 21.06468705789821
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7EE9698D-6CEB-4FD1-8B5F-9A91D8DED9A0}
+      IID 23
+      NAME "Thick Grinding Bass_TR_08.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 71.77796045903555
+      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {185B16E5-601B-4BE1-9794-D343171CF614}
+      <SOURCE WAVE
+        FILE "Media\Thick Grinding Bass_TR_08.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Thick Grinding Bass_TR_08.wav"
+      >
+    >
+  >
+  <TRACK {FA493971-3570-4FC3-82BC-45CF3CD9AFB5}
+    NAME Hype
+    PEAKCOL 19635056
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 1 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {FA493971-3570-4FC3-82BC-45CF3CD9AFB5}
     PERF 0
     MIDIOUT -1 -1
     MAINSEND 1 0
@@ -894,35 +1237,10 @@
         ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Thick Grinding Bass_TR_08.wav"
       >
     >
-    <ITEM
-      POSITION 71.77789520634421
-      SNAPOFFS 0
-      LENGTH 21.06468705789821
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {7EE9698D-6CEB-4FD1-8B5F-9A91D8DED9A0}
-      IID 23
-      NAME "Thick Grinding Bass_TR_08.wav"
-      VOLPAN 1 0 1 -1
-      SOFFS 71.77796045903555
-      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {185B16E5-601B-4BE1-9794-D343171CF614}
-      <SOURCE WAVE
-        FILE "Media\Thick Grinding Bass_TR_08.wav"
-      >
-      <EXT
-        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Thick Grinding Bass_TR_08.wav"
-      >
-    >
   >
-  <TRACK {E8E6E77C-F4A9-4B3E-AB8D-4B77A00B46DB}
-    NAME "Transforming Wobble Bass_TR_10"
-    PEAKCOL 16576
+  <TRACK {201F513A-6C41-4288-8238-979FEC6601D3}
+    NAME Wobbl
+    PEAKCOL 17545586
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
@@ -938,11 +1256,11 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
-    TRACKID {E8E6E77C-F4A9-4B3E-AB8D-4B77A00B46DB}
+    TRACKID {201F513A-6C41-4288-8238-979FEC6601D3}
     PERF 0
     MIDIOUT -1 -1
     MAINSEND 1 0
@@ -955,7 +1273,7 @@
       FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
       FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {0B8AFE3E-26C7-4C3A-9AD4-EA6796A77888}
       IID 24
       NAME "Transforming Wobble Bass_TR_10.wav"
@@ -971,60 +1289,10 @@
         ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Transforming Wobble Bass_TR_10.wav"
       >
     >
-    <ITEM
-      POSITION 130.49112476299629
-      SNAPOFFS 0
-      LENGTH 12.41796614609461
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {D1850B15-C5D3-49A3-AEDC-1445AF2C54B7}
-      IID 24
-      NAME "Transforming Wobble Bass_TR_10.wav"
-      VOLPAN 1 0 1 -1
-      SOFFS 130.49124339139937
-      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {3B73662C-AA34-49E5-AEA4-895155BB27D5}
-      <SOURCE WAVE
-        FILE "Media\Transforming Wobble Bass_TR_10.wav"
-      >
-      <EXT
-        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Transforming Wobble Bass_TR_10.wav"
-      >
-    >
-    <ITEM
-      POSITION 158.95343207125413
-      SNAPOFFS 0
-      LENGTH 13.7610775820792
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {22557B83-E84E-457E-B1FC-F9ED5FD3DA54}
-      IID 24
-      NAME "Transforming Wobble Bass_TR_10.wav"
-      VOLPAN 1 0 1 -1
-      SOFFS 158.95357657450555
-      PLAYRATE 1.00000090909174 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {0900162F-BBF0-4727-B5B9-F254BBB51851}
-      <SOURCE WAVE
-        FILE "Media\Transforming Wobble Bass_TR_10.wav"
-      >
-      <EXT
-        ORIGINAL_FILENAME "C:\Users\cmdrp\Downloads\Wacky\Wacky\Transforming Wobble Bass_TR_10.wav"
-      >
-    >
   >
   <TRACK {FF0A5F6D-9078-4FC3-9135-76FA97018AAC}
-    NAME "Tuned Metal Beat 02_TR_13"
-    PEAKCOL 16576
+    NAME Drum
+    PEAKCOL 28098604
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
@@ -1040,7 +1308,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -1075,8 +1343,8 @@
     >
   >
   <TRACK {A38CB1B1-8695-4B44-91C1-EE2BAF605FF8}
-    NAME "Voltage Spike Synth_1_TR_11"
-    PEAKCOL 16576
+    NAME "Voltage Spike"
+    PEAKCOL 17136825
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
@@ -1092,7 +1360,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -1127,8 +1395,8 @@
     >
   >
   <TRACK {760C1A25-6327-49DA-ADA5-ED8BFE664B8D}
-    NAME "Zero Crossing Beat_TR_12"
-    PEAKCOL 16576
+    NAME Drums2
+    PEAKCOL 33521769
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
@@ -1136,7 +1404,7 @@
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
-    ISBUS 0 0
+    ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
@@ -1144,7 +1412,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
